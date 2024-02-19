@@ -36,12 +36,25 @@ periksa file json dan buat file js secara manual serta isinya.
 - package.json
 
 - app.js
+  
+- .env
 
+---
 
+		❯ cat .env
+
+	    DB_HOST=127.0.0.1
+	    DB_USER=root
+	    DB_PASSWORD=password
+	    DB_DATABASE=ujimysqlkudb
+	    DB_PORT=3309
+	    DB_INSECUREAUTH=true
+
+---
 
 jalankan (command) :
 
-    > node app.js
+    ❯ node app.js
         op:
         Server running on port 3000
 
