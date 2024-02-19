@@ -82,8 +82,6 @@ untuk mengatasi hal tersebut lakukan langkah berikut:
         mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
         Query OK, 0 rows affected (0.03 sec)
 
-
-
         mysql> use ujimysqlkudb;
         
         mysql> select * from users;
