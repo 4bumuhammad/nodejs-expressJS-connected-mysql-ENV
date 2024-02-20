@@ -5,7 +5,7 @@
 
 instalasi expressjs:
 
-    > npm install express
+    ❯ npm install express
 
 
 
